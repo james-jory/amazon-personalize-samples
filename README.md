@@ -21,14 +21,12 @@ The [next_steps/](next_steps/) folder contains detailed examples of the followin
 
 * Generative AI
   - [Personalized marketing campaigns](/next_steps/generative_ai/personalized_marketing_campaign/)
-  - [User personalized marketing messaging with Amazon Personalize and Generative AI](user_personalized_marketing_messaging_with_amazon_personalize_and_gen_ai/). 
+  - [User personalized marketing messaging with Amazon Personalize and Generative AI](next_steps/generative_ai/user_personalized_marketing_messaging_with_amazon_personalize_and_gen_ai). 
         - Use this sample to create personalized marketing content (for instance emails) for each user using [Amazon Personalize](https://aws.amazon.com/personalize/) and [Amazon Bedrock](https://aws.amazon.com/bedrock/). In this sample you will train an [Amazon Personalize](https://aws.amazon.com/personalize/) 'Top picks for you' Recommender to get personalized recommendations for each user. You will then generate a prompt that includes the user's preferences, recommendations, and demographics. Finally you will use [Amazon Bedrock](https://aws.amazon.com/bedrock/) to generate a personalized email for each user.
   - [Amazon Personalize Langchain extensions](https://github.com/aws-samples/amazon-personalize-langchain-extensions)
 
 
 * Scalable Operations examples for your Amazon Personalize deployments
-    - [Maintaining Personalized Experiences with Machine Learning](https://aws.amazon.com/solutions/implementations/maintaining-personalized-experiences-with-ml/)
-        - This AWS Solution allows you to automate the end-to-end process of importing datasets, creating solutions and solution versions, creating and updating campaigns, creating filters, and running batch inference jobs. These processes can be run on-demand or triggered based on a schedule that you define.
     - [MLOps Step function](/next_steps/operations/ml_ops) (legacy)
         - This is a project to showcase how to quickly deploy a Personalize Campaign in a fully automated fashion using AWS Step Functions. To get started navigate to the [ml_ops](/next_steps/operations/ml_ops) folder and follow the README instructions. This example has been replaced by the [Maintaining Personalized Experiences with Machine Learning](https://aws.amazon.com/solutions/implementations/maintaining-personalized-experiences-with-ml/) solution.
     - [MLOps Data Science SDK](/next_steps/operations/ml_ops_ds_sdk)
@@ -41,12 +39,12 @@ The [next_steps/](next_steps/) folder contains detailed examples of the followin
         - This project adds monitoring, alerting, a dashboard, and optimization tools for running Amazon Personalize across your AWS environments.
     - [Streaming Events](/next_steps/operations/streaming_events)
         - This is a project to showcase how to quickly deploy an API Layer in front of your Amazon Personalize Campaign and your Event Tracker endpoint. To get started navigate to the [streaming_events](operations/streaming_events/) folder and follow the README instructions.
+    - [Clickstream Analytics](https://aws.amazon.com/solutions/implementations/clickstream-analytics-on-aws/)
+        - This is a solution from AWS that collects, ingests, analyzes, and visualizes clickstream data. It can be used to collect clickstream data for Amazon Personalize
 
 * Workshops
     - [Workshops/](/next_steps/workshops/) folder contains a list of our most current workshops:
-        - [POC in a Box](/next_steps/workshops/POC_in_a_box)
-        - [re:Invent 2019](/next_steps/workshops/Reinvent_2019)
-        - [Immersion Day](/next_steps/workshops/Immersion_Day)
+        - [Immersion Day](https://github.com/aws-samples/amazon-personalize-immersion-day)
     - [Partner Integrations](https://github.com/aws-samples/retail-demo-store#partner-integrations)
         - Explore workshops demonstrating how to use Personalize with partners such as Amplitude, Braze, Optimizely, and Segment.
 
